@@ -13,3 +13,14 @@ Default value of brightness threshold noise is 30 (0-255).
 4) Points 2 and 3 are repeated until the size of the current level of threshold_map is equal to size of the original image (0 level of each pyramid)
 ## 4. Binarization using pixel thresholds from map
 Brightness of each pixel in original image is compared to corresponding value in threshold map: if its bigger it will become 255 (white) otherwise 0 (black) and set as pixel of new binarize image.
+
+## Here are some examples of using algorithm:
+### Original image1
+![Original image1](https://github.com/vanes96/Data-visualization/blob/master/Original%20images/text2.png)
+### Binarized image1
+![Original image1](https://github.com/vanes96/Data-visualization/blob/master/Binarized%20images/text2_binarized.png)
+
+### Original image2
+![Original image2](https://github.com/vanes96/Data-visualization/blob/master/Original%20images/text3.jpg)
+### Binarized image2
+![Original image2](https://github.com/vanes96/Data-visualization/blob/master/Binarized%20images/text3_binarized.png)
