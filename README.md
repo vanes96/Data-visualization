@@ -16,7 +16,7 @@ Default value of brightness threshold noise is 30 (0-255).
 ## 4. Binarization using pixel thresholds from map
 Brightness of each pixel in original image is compared to corresponding value in threshold map: if its bigger it will become 255 (white) otherwise 0 (black) and set as pixel of new binarize image.
 
-## Here are some examples of using algorithm:
+## Examples
 ### Original image1
 ![Original image2](https://github.com/vanes96/Data-visualization/blob/master/Original%20images/text3.jpg)
 ### Binarized image1
