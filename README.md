@@ -7,6 +7,7 @@
 Default value of brightness threshold noise is 30 (0-255).
 
 ## 3. Creation of threshold map
+![Pyramids](https://github.com/vanes96/Data-visualization/blob/master/pyramids.gif)
 1) At 0 level map is initialized as the pyramid of average values () or each element is equal to average between local maximum and minimum [(local_max_ij + local_min_ij) / 2] from the corresponding pyramids.
 2) Next level is increased by 2 times. Following convolutions are applied: [1 3] [3 1] horizontally and vertically.
 3) For each cell in thsreshold map the expression [local_max_ij - local_min_ij] is calculated. If its bigger than noise threshold the cell is defined like [local_max_ij + local_min_ij) / 2] otherwise its not changed at all.
